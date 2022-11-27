@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-flex {
+    @apply w-full flex flex-col gap-1;
+}
+
+.form-control {
+    @apply py-2 px-4 border border-slate-300 rounded-lg
+}
+
+.submit-button {
+    @apply w-full mt-6 py-2 px-4 rounded-lg font-bold tracking-widest text-white bg-ukm border border-ukm cursor-pointer hover:text-ukm hover:bg-white;
+}
+
+.add-style {
+    @apply border-ukm hover:bg-ukm;
+}
+
+.close-style {
+    @apply border-red-600 hover:bg-red-600;
+}
+
+.nav-side {
+    @apply py-1 border-b border-b-slate-600 hover:border-b-slate-300;
+}
